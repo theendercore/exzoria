@@ -1,5 +1,6 @@
 package com.ender.exzoria.items.util;
 
+import com.ender.exzoria.setup.Registration;
 import net.minecraft.item.IItemTier;
 import net.minecraft.item.Items;
 import net.minecraft.item.crafting.Ingredient;
@@ -9,7 +10,7 @@ import java.util.function.Supplier;
 
 public enum ModItemTier implements IItemTier {
     VOIDSTEEL(4,2000, 10.5f, 5.0f,10, () -> {
-        return Ingredient.fromItems(Items.GOLD_INGOT);
+        return Ingredient.fromItems(Registration.VOIDSTEEL.get());
     })
     ;
 
@@ -20,7 +21,7 @@ public enum ModItemTier implements IItemTier {
     private final int enchantability;
     private final LazyValue<Ingredient> repairMaterial;
 
-    private ModItemTier(int harvestLevelIn, int maxUsesIn, float efficiencyIn, float attackDamageIn, int enchantabilityIn, Supplier<Ingredient> repairMaterialIn) {
+    ModItemTier(int harvestLevelIn, int maxUsesIn, float efficiencyIn, float attackDamageIn, int enchantabilityIn, Supplier<Ingredient> repairMaterialIn) {
         this.harvestLevel = harvestLevelIn;
         this.maxUses = maxUsesIn;
         this.efficiency = efficiencyIn;

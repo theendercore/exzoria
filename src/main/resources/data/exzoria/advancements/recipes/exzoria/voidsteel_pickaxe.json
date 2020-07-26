@@ -1,0 +1,32 @@
+{
+  "parent": "minecraft:recipes/root",
+  "rewards": {
+    "recipes": [
+      "exzoria:voidsteel_pickaxe"
+    ]
+  },
+  "criteria": {
+    "has_voidsteel": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "item": "exzoria:voidsteel"
+          }
+        ]
+      }
+    },
+    "has_the_recipe": {
+      "trigger": "minecraft:recipe_unlocked",
+      "conditions": {
+        "recipe": "exzoria:voidsteel_pickaxe"
+      }
+    }
+  },
+  "requirements": [
+    [
+      "has_voidsteel",
+      "has_the_recipe"
+    ]
+  ]
+}
