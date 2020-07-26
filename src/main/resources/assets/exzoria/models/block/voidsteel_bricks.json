@@ -1,0 +1,6 @@
+{
+  "parent": "minecraft:block/cube_all",
+  "textures": {
+    "all": "exzoria:block/voidsteel_bricks"
+  }
+}

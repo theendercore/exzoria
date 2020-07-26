@@ -1,0 +1,13 @@
+{
+  "comment_" : "Items",
+  "item.exzoria.voidsteel":"Voidsteel",
+  "item.exzoria.voidsteel_bits":"Voidsteel Bits",
+  "item.exzoria.voidsteel_pickaxe":"Voidsteel Pickaxe",
+
+  "comment_" : "Blocks",
+  "block.exzoria.voidsteel_block":"Voidsteel Block",
+  "block.exzoria.voidsteel_bricks":"Voidsteel Bricks",
+
+  "comment_" : "ItemGroup",
+  "itemGroup.exzoria":"Exzoria Mod"
+}

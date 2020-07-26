@@ -1,0 +1,13 @@
+{
+  "type": "minecraft:crafting_shapeless",
+  "group": "voidsteel",
+  "ingredients": [
+    {
+      "item": "exzoria:voidsteel_block"
+    }
+  ],
+  "result": {
+    "item": "exzoria:voidsteel",
+    "count": 9
+  }
+}

@@ -1,0 +1,16 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "###",
+    "###",
+    "###"
+  ],
+  "key": {
+    "#": {
+      "item": "exzoria:voidsteel"
+    }
+  },
+  "result": {
+    "item": "exzoria:voidsteel_block"
+  }
+}
